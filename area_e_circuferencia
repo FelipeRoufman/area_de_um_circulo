@@ -1,0 +1,20 @@
+#include <stdio.h>
+#include <stdlib.h>
+#include <math.h>
+int main(){
+
+const double PI = 3.14159;
+double raio;
+double circuferencia;
+double area;
+
+printf("Me diga o raio do circulo\n");
+scanf("%lf",&raio);
+
+circuferencia = 2 * PI * raio;
+area = PI * raio * raio;
+
+printf("A circuferencia desse circulo: %lf\n",circuferencia);
+printf("e a area dele: %lf\n",area);
+    
+}
